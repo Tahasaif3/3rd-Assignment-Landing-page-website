@@ -35,7 +35,7 @@ style all components appropriately to enhance the overall design.`,
     Use at least one image to enhance the visual appeal of your homepage.  
     Experiment with multiple colors and various style sizes to create a cohesive and engaging design.`,
 
-     link: 'https://link-to-assignment3.com', 
+     link: 'https://3rd-assignment-landing-page-website-j8j5.vercel.app/', 
     },
   ]
 
