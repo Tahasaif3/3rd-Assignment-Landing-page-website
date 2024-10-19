@@ -33,14 +33,14 @@ Create a component folder
   return (
     <section id="portfolio" className="bg-gray-100 py-20">
       <div className="container mx-auto px-4">
-        <h2 className="text-3xl font-bold mb-8 text-center text-gray-800 opacity-0 translate-y-4 animate-fadeIn transition-all duration-500 ease-out">
+        <h2 className="text-3xl font-bold mb-8 text-center text-gray-800 transition-all duration-500 ease-out">
           My Portfolio
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {projects.map((project, index) => (
             <div
               key={project.id}
-              className="bg-white p-6 rounded-lg shadow-md opacity-0 translate-y-4 animate-fadeIn transition-all duration-500 ease-out"
+              className="bg-white p-6 rounded-lg shadow-md transition-all duration-500 ease-out opacity-100 translate-y-0"
               style={{ transitionDelay: `${index * 100}ms` }}
             >
               <h3 className="text-xl font-semibold mb-2 text-gray-800">{project.title}</h3>
