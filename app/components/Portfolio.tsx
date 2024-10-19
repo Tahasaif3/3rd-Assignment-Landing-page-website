@@ -3,37 +3,28 @@ export default function Portfolio() {
     {
       id: 1,
       title: 'Assignment 1',
-      description: `Assignment 1: Website Creation
-Create a multi-page website with:
-
-Home, About, Contact, and Services pages.
-Links between all pages.
-One nested page under Services.
-CSS organized in a dedicated folder.`,
+      description: `Assignment 1: 
+Create About, Contact Us, and Service Page page
+- In Service Create nested pages (app-development & website-development)
+- Link them via Next Js Link Tag.`,
       link: 'https://website-iuck.vercel.app/',
     },
     {
       id: 2,
       title: 'Assignment 2',
       description: `Assignment 2:
-
-Create a homepage that includes:
-Header component
-Footer component
-Hero section
-style all components appropriately to enhance the overall design.`,
+Create a component folder
+- Inside component folder create 3 components Header Footer & Hero
+- Styled them properly using custom css (Not Tailwind Css)
+- Use all components in home about and contact us page.`,
       link: 'https://website-assignment-three.vercel.app/',
     },
     {
       id: 3,
-      title: 'Assignment 3',
-      description: `Assignment 3: 
-    Create a Home Page that includes the following elements:  
-    Header: Make sure it contains navigation links and is visually appealing.  
-    Footer: Include relevant information and links.  
-    2-3 additional sections styled using Tailwind CSS, such as an About section, Services section, or Contact section.  
-    Use at least one image to enhance the visual appeal of your homepage.  
-    Experiment with multiple colors and various style sizes to create a cohesive and engaging design.`,
+      title: 'Create a minimal landing page
+- Create header & footer components
+- Create 2 to 3 sections in landing page (e.g: about us/portfolio)
+- Styled all components and section properly using tailwind css.`,
 
      link: 'https://3rd-assignment-landing-page-website-j8j5.vercel.app/', 
     },
