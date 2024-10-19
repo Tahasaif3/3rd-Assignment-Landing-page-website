@@ -9,7 +9,7 @@ export default function Hero() {
             Hello, I am Taha Saif (Front-End Web Developer )
           </p>
           <button className="bg-blue-600 text-white font-bold py-2 px-4 rounded hover:bg-blue-700 transition-colors animate-text opacity-0 translate-y-10 transition-all duration-700 ease-out">
-            Learn More
+            Get to Know About me
           </button>
         </div>
       </section>
